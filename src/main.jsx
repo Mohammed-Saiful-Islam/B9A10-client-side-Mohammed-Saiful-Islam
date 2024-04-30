@@ -12,6 +12,12 @@ import SignUp from './components/SignUp.jsx';
 import SignIn from './components/SignIn.jsx';
 import AuthProvider from './providers/AuthProvider.jsx';
 import Users from './components/Users.jsx';
+import Dhaka from './components/Dhaka.jsx';
+import CapeTown from './components/CapeTown.jsx';
+import London from './components/London.jsx';
+import WashingtonDC from './components/WashingtonDC.jsx';
+import Brasilla from './components/Brasilla.jsx';
+import Canberra from './components/Canberra.jsx';
 
 const router = createBrowserRouter([
   {
@@ -39,6 +45,30 @@ const router = createBrowserRouter([
     path:'/users',
     element:<Users/>,
     loader: ()=> fetch('https://coffee-store-server-dun-delta.vercel.app/user')
+  },
+  {
+    path:'/dhaka',
+    element:<Dhaka/>
+  },
+  {
+    path:'/capetown',
+    element:<CapeTown/>
+  },
+  {
+    path:'/london',
+    element:<London/>
+  },
+  {
+    path:'/washingtondc',
+    element: <WashingtonDC/>
+  },
+  {
+    path: '/brasilla',
+    element :<Brasilla/>
+  },
+  {
+    path: '/canberra',
+    element:<Canberra/>
   }
 ]);
 
