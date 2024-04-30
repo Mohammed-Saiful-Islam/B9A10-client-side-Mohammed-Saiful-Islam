@@ -1,8 +1,10 @@
-# React + Vite
+B9 A10 Type-01 Requirements
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+server side github repo link:
+https://github.com/programming-hero-web-course-4/b9a10-server-side-Mohammed-Saiful-Islam
 
-Currently, two official plugins are available:
+client side github repo link:
+https://github.com/programming-hero-web-course-4/B9A10-client-side-Mohammed-Saiful-Islam
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+netlify live link:
+https://b9-assaignment-10.netlify.app/
